@@ -217,6 +217,7 @@ body {
     font-size: 2.4rem;
     padding: 10% 100%;
     background-image: linear-gradient(gray, lightgray);
+    background-size: 100%;
     opacity: 0.5;
   }
 }
