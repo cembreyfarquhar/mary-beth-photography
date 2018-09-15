@@ -142,6 +142,17 @@ html,
 body {
   font-family: 'Raleway', sans-serif;
 }
+.nav-backgroundColor {
+  background: #FFFFF2;
+}
+@media (max-width: 500px) {
+  .nav-backgroundColor {
+    height: 100%;
+    background-image: url("../img/6.jpg");
+    background-position: center;
+    background-size: cover;
+  }
+}
 .nav-container {
   max-width: 800px;
   margin: 0 auto;
@@ -152,9 +163,19 @@ body {
   height: 50px;
   align-items: center;
 }
+@media (max-width: 500px) {
+  .nav-container header {
+    flex-direction: column;
+  }
+}
 .nav-container header h1 {
   font-size: 1.4rem;
   width: 100%;
+}
+@media screen {
+  .nav-container header h1 {
+    display: none;
+  }
 }
 .nav-container header .nav {
   width: 100%;
@@ -162,10 +183,21 @@ body {
   justify-content: flex-end;
   align-items: center;
 }
+@media screen {
+  .nav-container header .nav {
+    height: 100%;
+  }
+}
 .nav-container header .nav nav {
   width: 100%;
   display: flex;
   justify-content: space-between;
+}
+@media (max-width: 500px) {
+  .nav-container header .nav nav {
+    flex-direction: column;
+    height: 100%;
+  }
 }
 .nav-container header .nav nav a {
   font-size: 1.4rem;
@@ -199,15 +231,17 @@ footer .nav nav a {
   text-decoration: none;
   color: grey;
 }
-.nav-backgroundColor {
-  background: #FFFFF2;
-}
 .backgroundColor {
   background: #FFEBCD;
 }
 .container {
   max-width: 880px;
   margin: 0 auto;
+}
+@media (max-width: 500px) {
+  .container {
+    display: none;
+  }
 }
 .container .top-header {
   text-align: center;

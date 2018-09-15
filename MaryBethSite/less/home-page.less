@@ -1,6 +1,4 @@
-.nav-backgroundColor {
-  background: @main-bg;
-}
+
 
 .backgroundColor {
   background: @sandy-beach;
@@ -10,9 +8,14 @@
   max-width: 880px;
   margin: 0 auto;
 
+  @media @mobile {
+    display: none;
+  }
+  
   .top-header {
     text-align: center;
-
+    
+  
     h1 {
       padding: 20px 0;
       font-size: 4.4rem;
