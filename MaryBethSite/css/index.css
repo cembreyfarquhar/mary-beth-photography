@@ -216,6 +216,8 @@ body {
   .nav-container header .nav nav a {
     font-size: 2.4rem;
     padding: 10% 100%;
+    background-image: linear-gradient(gray, lightgray);
+    opacity: 0.5;
   }
 }
 footer {
