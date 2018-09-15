@@ -215,7 +215,7 @@ body {
 @media (max-width: 500px) {
   .nav-container header .nav nav a {
     font-size: 2.4rem;
-    padding: 10% 100%;
+    padding: 10% 50%;
     background-image: linear-gradient(gray, lightgray);
     background-size: 100%;
     opacity: 0.5;
