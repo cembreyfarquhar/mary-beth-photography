@@ -203,9 +203,8 @@ body {
 }
 @media (max-width: 500px) {
   .nav-container header .nav nav {
-    flex-direction: column;
-    height: 100%;
-    justify-content: space-evenly;
+    display: table;
+    height: 80%;
   }
 }
 .nav-container header .nav nav a {
@@ -215,14 +214,14 @@ body {
 }
 @media (max-width: 500px) {
   .nav-container header .nav nav a {
+    display: table-row;
     font-size: 2.4rem;
     background-image: linear-gradient(gray, lightgray);
     background-size: 100%;
     opacity: 0.5;
     width: 100%;
     text-align: center;
-    height: 14%;
-    line-height: 5.8rem;
+    vertical-align: middle;
   }
 }
 footer {
